@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Bard - Try Bard, an AI experiment by Google</title>
+    <link rel="shortcut icon" href="./images/logo.gif" type="image/x-icon" />
+    <meta
+      name="description"
+      content="Bard is your creative and helpful collaborator to supercharge your imagination, boost productivity, and bring ideas to life."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <header class="bard__header">
+      <div class="bard__header-nav">
+        <img
+          class="sidebar-toggler-btn"
+          src="./images/menu.svg"
+          alt="menu_icon"
+        />
+        <img src="./images/logo.svg" alt="bard_logo" />
+      </div>
+      <a class="bard__header-profile profile-picture" href="/profile">
+        <img src="./images/user.jpg" alt="user_logo" />
+      </a>
+    </header>
+    <div id="bard__wrapper" class="">
+      <div class="bard__sidebar">
+        <div class="bard__sidebar-new_chat">
+          <img src="./images/menu.svg" alt="" />
+        </div>
+        <div class="bard__sidebar-recent">
+          <h2>Recent</h2>
+          <ul class="list-none">
+            <li class="recent">
+              <span>
+                <img src="./images/edit.svg" width="14px" alt="edit" />
+              </span>
+              <p class="line-clamp-1">
+                replacing the miu rating with a custom react component
+              </p>
+            </li>
+            <li class="recent">
+              <span>
+                <img src="./images/edit.svg" width="14px" alt="edit" />
+              </span>
+              <p class="line-clamp-1">
+                Explain the Logical assignment ECMAscript 2020
+              </p>
+            </li>
+            <li class="recent">
+              <span>
+                <img src="./images/edit.svg" width="14px" alt="edit" />
+              </span>
+              <p class="line-clamp-1">Nullish coalescing operator (??)</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <main class="bard__container">
+        <section class="bard__container-operant">
+          <div class="conversation" id="conversation_1">
+            <aside class="conversation__qn">
+              <span class="profile-picture">
+                <img src="./images/user.jpg" alt="user_logo" />
+              </span>
+              <h2>ECMAScript 2020 new operators.</h2>
+              <span class="edit">
+                <img src="./images/edit.svg" alt="edit" />
+              </span>
+            </aside>
+            <div class="conversation__ans">
+              <div class="ans-gutter">
+                <img
+                  src="./images/logo.gif"
+                  width="32px"
+                  class="bard_logo"
+                  alt="bard_logo"
+                />
+              </div>
+
+              <div class="conversation__ans-markdown">
+                <p>ECMAScript 2020 introduced two new operators:</p>
+
+                <ul>
+                  <li>
+                    Nullish coalescing operator (??). This operator returns the
+                    first operand if it is not null or undefined, and the second
+                    operand otherwise. For example, the expression "foo" ?? 123
+                    will return the string "foo" if it is not null or undefined,
+                    and 123 otherwise.
+                  </li>
+                  <li>
+                    Optional chaining operator (?.). This operator allows you to
+                    safely access a property on an object, even if the object is
+                    null or undefined. For example, the expression user?.name
+                    will return the value of the name property of the user
+                    object if the user object is defined and has a name
+                    property, and undefined otherwise.
+                  </li>
+                </ul>
+
+                <p>Here are some examples of how to use these operators:</p>
+                <pre>
+<code>
+  const foo = null;
+  const bar = undefined;
+  
+  // Nullish coalescing operator
+  const value = foo ?? bar; // value will be undefined
+  
+  // Optional chaining operator
+  const name = user?.name; // name will be undefined if user is undefined or null
+</code>
+                  </pre>
+
+                <p>
+                  These operators can be used to make your code more concise and
+                  readable, and to avoid errors caused by accessing properties
+                  on null or undefined objects.
+                </p>
+                <p>
+                  In addition to these two new operators, ECMAScript 2020 also
+                  introduced a number of other new features, such as:
+                </p>
+
+                <ul>
+                  <li>BigInt primitive type for arbitrary-sized integers</li>
+                  <li>
+                    String matchAll() method to match all occurrences of a
+                    regular expression in a string
+                  </li>
+                  <li>
+                    Logical assignment operators (&&=, ||=, ??=) to assign the
+                    result of a logical operation to a variable
+                  </li>
+                  <li>
+                    Promise.allSettled() method to wait for all promises in an
+                    iterable to resolve or reject
+                  </li>
+                  <li>
+                    Dynamic import() statement to import a module at runtime
+                  </li>
+                </ul>
+                <p>
+                  These new features can make your JavaScript code more powerful
+                  and expressive.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="conversation" id="conversation_2">
+            <aside class="conversation__qn">
+              <span class="profile-picture">
+                <img src="./images/user.jpg" alt="user_logo" />
+              </span>
+              <h2>ECMAScript 2020 new operators.</h2>
+              <span class="edit">
+                <img src="./images/edit.svg" alt="edit" />
+              </span>
+            </aside>
+            <div class="conversation__ans">
+              <div class="ans-gutter">
+                <img
+                  src="./images/logo.gif"
+                  width="32px"
+                  class="bard_logo"
+                  alt="bard_logo"
+                />
+              </div>
+
+              <div class="conversation__ans-markdown">
+                <p>ECMAScript 2020 introduced two new operators:</p>
+
+                <ul>
+                  <li>
+                    Nullish coalescing operator (??). This operator returns the
+                    first operand if it is not null or undefined, and the second
+                    operand otherwise. For example, the expression "foo" ?? 123
+                    will return the string "foo" if it is not null or undefined,
+                    and 123 otherwise.
+                  </li>
+                  <li>
+                    Optional chaining operator (?.). This operator allows you to
+                    safely access a property on an object, even if the object is
+                    null or undefined. For example, the expression user?.name
+                    will return the value of the name property of the user
+                    object if the user object is defined and has a name
+                    property, and undefined otherwise.
+                  </li>
+                </ul>
+
+                <p>Here are some examples of how to use these operators:</p>
+                <pre>
+<code>
+  const foo = null;
+  const bar = undefined;
+  
+  // Nullish coalescing operator
+  const value = foo ?? bar; // value will be undefined
+  
+  // Optional chaining operator
+  const name = user?.name; // name will be undefined if user is undefined or null
+</code>
+                  </pre>
+
+                <p>
+                  These operators can be used to make your code more concise and
+                  readable, and to avoid errors caused by accessing properties
+                  on null or undefined objects.
+                </p>
+                <p>
+                  In addition to these two new operators, ECMAScript 2020 also
+                  introduced a number of other new features, such as:
+                </p>
+
+                <ul>
+                  <li>BigInt primitive type for arbitrary-sized integers</li>
+                  <li>
+                    String matchAll() method to match all occurrences of a
+                    regular expression in a string
+                  </li>
+                  <li>
+                    Logical assignment operators (&&=, ||=, ??=) to assign the
+                    result of a logical operation to a variable
+                  </li>
+                  <li>
+                    Promise.allSettled() method to wait for all promises in an
+                    iterable to resolve or reject
+                  </li>
+                  <li>
+                    Dynamic import() statement to import a module at runtime
+                  </li>
+                </ul>
+                <p>
+                  These new features can make your JavaScript code more powerful
+                  and expressive.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="bard__container-prompt">
+          <div class="prompt-wrapper">
+            <img class="add_img" src="./images/plus.svg" alt="add_img" />
+            <input
+              type="text"
+              class="prompt"
+              placeholder="Enter a prompt here"
+            />
+            <img class="send_img" src="./images/send.png" alt="send_img" />
+          </div>
+          <p class="disclaimer">
+            Bard may display inaccurate or offensive information that doesn’t
+            represent Google’s views.
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www/google.com/dumanimedia"
+              >Bard Privacy Notice</a
+            >
+          </p>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

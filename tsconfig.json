@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "noImplicitAny": true,
+    "outDir": "public",
+    "strict": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "target": "ESNext"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["public"]
+}
